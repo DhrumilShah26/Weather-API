@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Home from './HomeComponent';
 import Header from './HeaderComponent';
-import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import Footer from './FooterComponent';
 
 class Main extends Component {
   render() {
@@ -12,6 +13,7 @@ class Main extends Component {
             <Route path="/home" component={() => <Home/>} />
             <Redirect to="/home" />
         </Switch>
+        <Footer/>
       </div>
     );
   }
