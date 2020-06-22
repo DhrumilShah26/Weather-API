@@ -25,7 +25,7 @@ class Header extends Component {
                 <div className="row row-header">
                   <div className="col-12 col-sm-6">
                     <h1>Weather Finder</h1>
-                    <p>Enter the city and the country that you want to know about the weather of in the below field and hit the search button.</p>
+                    <p>Enter the city and the country that you want to know about the weather of, in the below field and hit the search button.</p>
                   </div>
                 </div>
               </div>
