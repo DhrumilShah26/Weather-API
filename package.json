@@ -2,7 +2,7 @@
   "name": "openweatherapi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dhrumilshah26.github.io/Weather-API/",
+  "homepage": "https://DhrumilShah26.github.io/Weather-API/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -10,7 +10,6 @@
     "bootstrap": "^4.5.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
-    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-popper": "^2.2.3",
@@ -40,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
