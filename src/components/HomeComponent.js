@@ -21,27 +21,6 @@ class Home extends React.Component {
     
     const data = await api_call.json();
     console.log(data);
-    /*const api_call = () => {
-        return fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`)
-        .then( response => {
-            if (response.ok) {
-                return response;
-            }
-            else {
-                var error = new Error('Error ' + response.status + ': ' + response.statusText);
-                error.response = response;
-                throw error;
-            }
-        },
-        error => {
-            var errmess = new Error(error.message);
-            throw errmess;
-        })
-        .then(response => response.json())
-        .catch(error => (error.message));
-    }
-
-    const data = api_call();*/
 
     if (city && country) {
       if (data.cod == 404) {
