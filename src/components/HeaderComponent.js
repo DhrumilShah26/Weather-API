@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, Nav, NavItem, Jumbotron } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
+import { Navbar, NavbarBrand, Jumbotron } from 'reactstrap';
 
 class Header extends Component {
     render() {
@@ -11,13 +10,6 @@ class Header extends Component {
                 <NavbarBrand className="mr-auto" href="/">
                   <span>Weather Finder</span>
                 </NavbarBrand>
-                <Nav>
-                  <NavItem>
-                    <NavLink className="nav-link" to="/home">
-                      <span className="fa fa-home fa-lg"> Home </span>
-                    </NavLink>
-                  </NavItem>
-                </Nav>
               </div>
             </Navbar>
             <Jumbotron>
